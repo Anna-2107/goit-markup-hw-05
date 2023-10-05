@@ -657,7 +657,8 @@ color: var(--c-background-light);
     visibility: hidden;
     pointer-events: none;
     inset: 0;
-    display: flex;
+    /*display: flex;*/
+    display: none;
     align-items: center;
     justify-content: center;
     background-color: rgba(46, 47, 66, 0.4);
