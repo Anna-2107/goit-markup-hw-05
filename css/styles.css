@@ -742,11 +742,11 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 fill: var(--c-background-light);
 }
-
+/*
 .svg-close:hover {
 
 }
-
+*/
 .modal-nazvan {
 font-weight: 500;
 line-height: 1.5em;
@@ -758,7 +758,7 @@ margin-bottom: 16px;
 }
 
 .contact-modal {
-margin-bottom: 8px;
+margin-bottom: 16px;
 }
 
 .modal-label {
@@ -799,6 +799,10 @@ color: #8e8f99;
         top: 50%;
         transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
         transform: translateY(-50%);
+}
+
+.modal-svg:focus {
+color: var(--c-brand);
 }
 
 .modal-textarea {
