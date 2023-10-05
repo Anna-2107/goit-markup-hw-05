@@ -729,7 +729,8 @@ fill: var(--c-brand);
 
 
 .modal-input:focus {
-    fill: var(--c-brand)
+    fill: var(--c-brand);
+border-color: var(--c-brand);
 }
         
         
