@@ -725,22 +725,16 @@ border: none;
 
 .modal-input:focus+.modal-svg {
     fill: var(--c-brand);
+    border-color: var(--c-brand);
 }
 
-
-.modal-input:focus {
-    fill: var(--c-brand);
-border-color: var(--c-brand);
-}
-        
+       
         
 .modal .modal-close:focus .close-modal {
-fill: var(--c-background-light);
+    fill: var(--c-background-light);
 }
         
-.modal .modal-close:hover .close-modal {
-fill: var(--c-background-light);
-}
+
         
 .close-modal {
 fill: var(--c-text);
@@ -754,8 +748,8 @@ fill: var(--c-background-light);
 }
 
 .svg-close:focus {
-fill: var(--c-brand);
-border-color: var(--c-brand);
+    fill: var(--c-brand);
+    border-color: var(--c-brand);
 }
 
 .modal-nazvan {
@@ -816,9 +810,8 @@ color: #8e8f99;
         transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
         transform: translateY(-50%);
 }
-
 .modal-svg:focus {
-color: var(--c-brand);
+    color: var(--c-brand);
 }
 
 .modal-textarea {
