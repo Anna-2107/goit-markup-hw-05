@@ -703,21 +703,26 @@ display: flex;
 
 .modal-close:hover {
 background-color: var(--c-hover-active);
+fill: var(--c-background-light);
 border: none;
 }
 
+.modal-close:focus {
+    background-color: var(--c-hover-active);
+    fill: var(--c-background-light);
+    border: none;
+}
+/*
 .modal-input:focus+.close-modal-list {
 fill: var(--c-brand);
 }
+*/
+
 
 .modal-input:focus {
     fill: var(--c-brand)
 }
         
-.modal-close:focus {
-border: none;
-background-color: var(--c-hover-active);
-}
         
 .modal .modal-close:focus .close-modal {
 fill: var(--c-background-light);
