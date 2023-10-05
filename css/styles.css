@@ -755,7 +755,7 @@ fill: var(--c-background-light);
 }
 
 .svg-close:focus {
-feel: var(--c-brand);
+fill: var(--c-brand);
 border-color: var(--c-brand);
 }
 
