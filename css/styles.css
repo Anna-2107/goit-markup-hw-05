@@ -908,7 +908,6 @@ color: #8e8f99;
 .send-button:hover {
 
     fill: var(--c-background-light);
-    color: var(--c-background-light);
-    background-color: var(--c-hover-active);
 
+        background-color: var(--c-hover-active);
 }
