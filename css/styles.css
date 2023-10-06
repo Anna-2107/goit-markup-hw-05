@@ -621,7 +621,11 @@ background-color: transparent;
 }
 
 ::placeholder {
-color: var(--c-background-light);
+color: vacolor: var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.40));
+font-size: 12px;
+    font-weight: 400;
+    line-height: 1.16;
+    letter-spacing: 0.48px;
 }
 
 
@@ -744,7 +748,7 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 .svg-close {
 transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-fill: var(--c-background-light);
+fill: var(--c-text);
 }
 
 .svg-close:focus {
@@ -828,6 +832,7 @@ color: #8e8f99;
     width: 100%;
     border-radius: 4px;
     border: 1px solid var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.4));
+    display: block;
 }
 
 .modal-textarea:focus {
@@ -875,9 +880,9 @@ color: #8e8f99;
 
 .modal-input-checkbox:checked+.modal-checkbox-text .checkbox-text {
     color: #404bbf;
-    border: none;
-    fill: #f4f4fd;
-    background-color: #404bbf;
+        border: none;
+        fill: #f4f4fd;
+        background-color: #404bbf;
 }
 
 .send-button {
@@ -896,5 +901,15 @@ color: #8e8f99;
     line-height: 1.5;
     letter-spacing: 0.04em;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    margin: 24px 95px;
+    margin: 0 95px;
+}
+
+.send-button:hover {
+    background-color: var(--c-hover-active);
+
+}
+
+.send-button:focus {
+    background-color: var(--c-hover-active);
+
 }
