@@ -904,17 +904,11 @@ color: #8e8f99;
     margin: 0 95px;
 }
 
-.send-button:focus {
-
-    fill: var(--c-background-light);
-    color: var(--c-background-light);
-    background-color: var(--c-hover-active);
-
-}
-
-
+.send-button:focus,
 .send-button:hover {
+
     fill: var(--c-background-light);
     color: var(--c-background-light);
     background-color: var(--c-hover-active);
+
 }
