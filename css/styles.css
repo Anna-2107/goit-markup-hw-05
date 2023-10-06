@@ -906,12 +906,9 @@ color: #8e8f99;
 
 .send-button:hover {
     fill: #f4f4fd;
-    background-color: var(--c-hover-active);
 
 }
 
 .send-button:focus {
     fill: #f4f4fd;
-    background-color: var(--c-hover-active);
-
 }
