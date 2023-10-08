@@ -810,6 +810,7 @@ color: #8e8f99;
         top: 50%;
         transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
         transform: translateY(-50%);
+        fill: var(--c-text);
 }
 .modal-svg:focus {
     color: var(--c-brand);
